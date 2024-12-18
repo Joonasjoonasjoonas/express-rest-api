@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: . # Use the current directory to build the Dockerfile
+    ports:
+      - "3000:3000" # Map container port 3000 to host port 3000
+    volumes:
+      - .:/usr/src/app # Mount the code directory for live updates
+      - /usr/src/app/node_modules # Avoid overwriting node_modules
+    environment:
+      - NODE_ENV=development

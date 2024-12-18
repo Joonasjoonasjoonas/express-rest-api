@@ -1,1 +1,26 @@
+# Node modules and dependencies
 node_modules
+npm-debug.log
+yarn-error.log
+# Logs
+logs
+\*.log
+# Temporary files
+tmp
+_.tmp
+_.swp
+# Test files
+# Test files
+**tests**/
+coverage/
+test.http
+manual_tests/
+# Docker-related files
+.dockerignore
+Dockerfile
+# Git files
+.git
+.gitignore
+# System files
+.DS_Store
+Thumbs.db
