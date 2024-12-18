@@ -42,7 +42,7 @@ Ensure the following are installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/fullstack-app.git
+   git clone https://github.com/Joonasjoonasjoonas/fullstack-app.git
    cd fullstack-app
    ```
 2. Install dependencies:
